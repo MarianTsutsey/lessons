@@ -1,0 +1,57 @@
+@import url(reset.css);
+
+* {
+	color: rgb(255, 0, 0);
+}
+
+h1 {
+	color: rgb(176, 189, 1);
+}
+
+.color-2 {
+   color: rgb(117, 180, 0);
+}
+
+#color-1{
+   color: rgb(3, 97, 0);
+}
+
+[class*="sub"]{
+   color: rgb(187, 0, 0);
+}
+
+li.list{
+   color: rgb(175, 0, 0);
+}
+
+.main.text{
+   color: rgb(165, 0, 0);
+}
+
+.title-1,
+.title-2 {
+color: rgb(0, 30, 114);
+}
+
+.list-autor li {
+   color: rgb(159, 0, 180);
+}
+
+.list-autor .first-book {
+   color: rgb(66, 86, 110);
+}
+
+.list-2 * {
+   color: rgb(141, 0, 134);
+}
+
+.sub-title-3 > p {
+   color: rgb(141, 6, 130);
+}
+.title-end ~ p {
+   color: rgb(119, 139, 2);
+}
+
+.some-text + p {
+   color: rgb(3, 146, 79);
+}
