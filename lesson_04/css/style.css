@@ -82,7 +82,7 @@ footer {
 }
 .portfolio {
    padding-top: 50px;
-   font-family: "Work Sans" "Arial", sans-serif;
+   font-family: "Work Sans", "Arial", sans-serif;
 }
 .portfolio-title {
    align-self: stretch;
@@ -105,7 +105,7 @@ footer {
 
 .about-us {
    padding-top: 50px;
-   font-family: "DM Sans" "Arial", sans-serif;
+   font-family: "DM Sans", "Arial", sans-serif;
 }
 .about-us-title {
    color: var(--Neutral-Colors-Color-800, #1E1B39);
@@ -129,7 +129,7 @@ line-height: 175%
 }
 
 .product {
-   font-family: "Roboto" "Arial", sans-serif;
+   font-family: "Roboto", "Arial", sans-serif;
    padding-top: 50px;
    padding-bottom: 20px;
 }
