@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url(fonts.css);
+
+@import url(reset.css);
+body {
+   background-color: antiquewhite;
+}
+.title-header {
+   font-size: 86px;
+   text-align: center;
+   line-height: 150%;
+}
+.list li {
+   font-size: 36px;
+   text-align: center;
+}
+header {
+   margin-bottom: 30px;
+}
+.ex-1 {
+   background-color: #141414;
+   max-width: 1921px;
+   margin-inline: auto;
+   margin-bottom: 30px;
+}
+.block {
+   font-family: "Manrope", Helvetica, sans-serif;
+   max-width: 1597px;
+   margin-inline: auto;
+   padding-block: 100px;
+}
+.block-title h2{
+color: #fff;
+font-size: 38px;
+font-weight: 700;
+margin-block-end: 14px;
+line-height: 150%;
+}
+.block p {
+   color: #999;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 150%;
+}
+.block h3 {
+   color: #fff;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 150%;
+}
+.block-title {
+   margin-block-end: 80px;
+}
+.items {
+   margin-left: -15px;
+   margin-right: -15px;
+   font-size: 0;
+}
+.item {
+   width: 33.333%;
+   display: inline-block;
+   margin-bottom: 30px;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.content {
+   background-color: #3b3b3b;
+   padding: 50px;
+}
+.content img {
+   padding: 16px;
+   display: inline;
+   vertical-align: middle;
+}
+.content h3 {
+   display: inline;
+   vertical-align: middle;
+}
+.name {
+   margin-bottom: 30px;
+}
+.ex-2 {
+   font-family: "Roboto", Arial, sans-serif;
+   margin-block-end: 150px;
+}
+.conteiner-ex-2 {
+   max-width: 621px;
+   margin-inline: auto;
+}
+.content-ex-2 {
+   background-color: #f2f9ff;
+   padding: 41px;
+}
+.title-ex-2 {
+   font-size: 50px;
+   font-weight: 500;
+   line-height:  132%;
+   letter-spacing: 1px;
+   color: #091133;
+   margin-block-end: 20px;
+}
+.text-ex-2 {
+font-size: 18px;
+font-weight: 400;
+line-height: 166.667%;
+color: #505F98;
+margin-block-end: 69px;
+}
+.text-ex-2-1{
+   margin-block-end: 20px;
+}
+.button-1 {
+   background-color: #091133;
+   color: #fff;
+   width: 189px;
+   height: 36px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 162.5%;
+   padding-inline: 20px;
+   padding-block: 5px;
+   margin-inline-end: 30px;
+}
+.button-2 {
+   background-color: #ffffff;
+   color: #091133;
+   width: 189px;
+   height: 36px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 162.5%;
+   padding-inline: 20px;
+   padding-block: 5px;
+   border-radius: 2px;
+border: 2px solid var(--Colour-Main-Blue-900, #091133);
+}
+.content-ex-3 {
+   background-color: #f2f9ff;
+   padding: 41px;
+   max-width: 622px;
+   margin-inline: auto;
+   font-family: "Roboto", Arial, sans-serif;
+}
+.title-ex-3 {
+   color: #091133;
+   font-size: 36px;
+   font-weight: 500;
+   line-height: 133.333%;
+   margin-block-end: 16px;
+}
+.text-ex-3 {
+   color: #6F7CB2;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 162.5%;
+   margin-block-end: 71px;
+}
+.text-ex-3-1 {
+   margin-block-end: 16px;
+}
+.items-2 {
+margin-left: -30px;
+margin-right: -30px;
+}
+.item-2 {
+   width: 49.6%;
+   display: inline-block;
+   margin-bottom: 32px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.content-2 img {
+margin-block-end: 14px;
+}
+.content-2 h4 {
+   margin-block-end: 6px;
+}
+.title-item-2 {
+color: #091133;
+font-size: 16px;
+font-weight: 500;
+line-height: 162.5%;
+}
+.text-item-2 {
+color: #5D6970;
+font-size: 12px;
+font-weight: 400;
+line-height: 150%;
+}
+.ex-3 {
+   margin-block-end: 50px;
+}
+/* практика */
+.practic {
+   font-family: "Roboto", Arial, sans-serif;
+   font-size: 36px;
+   line-height: 150%;
+   text-align: center;
+}
+.practic h4 {
+   max-width: 1000px;
+   margin-inline: auto;
+   background-color: #fff;
+   padding: 30px;
+   height: 200px;
+
+
+}
+.practic span {
+   /* width: 100000px; не впливає */
+   padding-left: 300px;
+   margin-inline-end: 30px;
+   background-color: #3b3b3b;
+   color: #f2f9ff;
+   vertical-align: bottom;
+}
+.practic img {
+   /* padding: 90px; не впливає */
+width: 50%;
+height: 300px;
+}
+.practic {
+   margin-block-end: 50px;
+}
+
+.father{
+   font-size: 0;
+   margin-bottom: 50px;
+}
+.chield {
+   display: inline-block;
+background-color: #ffffff;
+   font-family: "Roboto", Arial, sans-serif;
+   font-size: 24px;
+   color: #141414;
+   line-height: 150%;
+
+}
+
+.overflow{
+   font-family: "Manrope", Helvetica, sans-serif;
+   max-width: 33.333%;
+   height: 100px;
+   overflow: scroll;
+   background-color: #d7ffb6;
+margin-block-end: 50px;
+}
+
+
+
+
+
+
+
+
