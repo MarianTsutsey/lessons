@@ -1,0 +1,174 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+header {
+   font-family: "Manrope", Arial, sans-serif;
+   font-style: italic;
+   text-align: center;
+   background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(20, 20, 20) 100%);
+   color: rgb(255, 0, 0);
+   padding-block: 25px;
+}
+.header-conteiner {
+max-width: 90%;
+margin-inline: auto;
+padding-inline: 15px;
+}
+header h1 {
+font-size: 56px;
+line-height: 150%;
+font-weight: 700;
+border: 10px solid rgb(182, 2, 2);
+margin-block-end: 35px;
+border-radius: 30px;
+box-shadow: inset 30px 10px 30px 10px rgb(255, 1, 1), 30px 10px 30px 10px rgb(255, 0, 0);
+text-shadow: 5px 2px 10px rgb(255, 0, 0);
+background-color: #141414;
+}
+header li {
+   margin-inline: auto;
+   font-size: 24px;
+   line-height: 120%;
+   font-style: normal;
+   outline: 1px dashed rgb(172, 1, 1);
+   margin-block-end: 15px;
+   border-radius: 50px;
+   opacity: 0.9;
+   background-color: #2e2e2e;
+   padding-block: 20px;
+   display: inline-block;
+   padding-inline: 40px;
+   margin-inline: 30px;
+   box-shadow: inset 15px 5px 15px 2px rgb(255, 0, 0), 15px 5px 15px 2px rgb(255, 0, 0);
+   text-shadow: 5px 2px 10px rgb(255, 0, 0);
+   min-width: 300px;
+}
+.li-header:hover {
+   text-decoration: underline;
+   opacity: 1;
+   background-color: #141414;
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+   box-shadow: inset 5px 1px 5px 1px rgb(255, 0, 0), 5px 1px 5px 1px rgb(255, 0, 0);
+   text-shadow: 5px 2px 10px rgb(255, 0, 0);
+}
+h1:hover {
+   box-shadow: inset 15px 5px 15px 2px rgb(255, 0, 0), 15px 5px 15px 2px rgb(255, 0, 0);
+   text-shadow: 5px 2px 10px rgb(255, 0, 0);
+}
+.dark-theme-website {
+   max-width: 100%;
+   margin-inline: auto;
+   /* background: url(../img/background_main.png);
+   background-repeat: no-repeat;
+background-size: cover; */
+   background: url("../img/1.svg") center / 300px no-repeat,
+   linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%), 
+   linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
+   url("../img/background_main.png") 0 0 / cover no-repeat,
+   url("../img/background_main_2.png") 0 0 / cover no-repeat;
+}
+
+.text-conteiner {
+   padding-block-start: 579px;
+   /* розумію що не вірно опускати текст внутрішнім відступом, але більше варіантів не придумав */
+   text-align: center;
+   margin-inline: 150px;
+   margin-block-end: 40px;
+}
+.text-conteiner h2 {
+   max-width: 1140px;
+   margin-inline: auto;
+   color: #fff;
+   font-size: 48px;
+   font-weight: 700;
+   margin-block-end: 10px;
+   line-height: 150%;
+
+}
+.text-conteiner p {
+   max-width: 1140px;
+   margin-inline: auto;
+   color: #999;
+   font-size: 14px;
+   font-weight: 150%;
+   line-height: 150%;
+}
+.button-icon{
+   padding: 14px 24px;
+   background-color: #E50000;
+   border-radius: 8px;
+}
+.button-icon span {
+   color: #fff;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 150%;
+   background: url(../img/icons/icon.png) left / 24px no-repeat;
+   padding-inline-start: 28px;
+}
+.button-icon:hover{
+   background-color: #00ac25;
+}
+.button {
+max-width: 209px;
+margin-inline: auto;
+}
+.canvas {
+   background-color: #141414;
+   min-height: 900px;
+}
+.portfolio-template{
+   background-color: #FDF0E9;
+   max-width: 1440px;
+   margin-inline: auto;
+   font-family: "Epilogue", Arial, sans-serif;
+
+}
+.text-content{
+   display: inline-block;
+   vertical-align: middle;
+   max-width: 50%;
+   padding-inline-start: 135px;
+   margin-inline-end: 173px;
+}
+.img-2 {
+   vertical-align: top;
+   display: inline-block;
+   text-align: top;
+   max-width: 50%;
+   max-width: 529px;
+   padding-inline-end: 135px;
+}
+.text-content h2 {
+   margin-block-start: 90px;
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 114.286%;
+   letter-spacing: -1px;
+   color: #391400;
+   max-width: 397px;
+   margin-block-end: 26px;
+}
+.text-content p {
+   color: #391400;
+   font-size: 20px;
+   font-weight: 400;
+   line-height:  160%;
+   max-width: 470px;
+   margin-block-end: 26px;
+}
+.text-content li {
+   color:  rgba(57, 20, 0, 0.64);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 200%;
+   background: url("../img/icons/check.png") left / 32px no-repeat;
+   padding-left: 48px;
+   padding-block: 8px;
+}
