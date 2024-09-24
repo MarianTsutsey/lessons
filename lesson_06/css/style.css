@@ -96,7 +96,7 @@ background-size: cover; */
    margin-inline: auto;
    color: #999;
    font-size: 14px;
-   font-weight: 150%;
+   font-weight: 400;
    line-height: 150%;
 }
 .button-icon{
@@ -140,7 +140,6 @@ margin-inline: auto;
 .img-2 {
    vertical-align: top;
    display: inline-block;
-   text-align: top;
    max-width: 50%;
    max-width: 529px;
    padding-inline-end: 135px;
