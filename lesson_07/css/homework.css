@@ -1,0 +1,123 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+.presentation{
+   font-family: "DM Sans", Arial, sans-serif;
+   max-width: 960px;
+   margin-inline: auto;
+   border: 1px #1E1B39 solid;
+   padding-block: 127px;
+   margin-bottom: 25px;
+}
+
+ol{
+   counter-reset: item;
+}
+ol li::before {
+   counter-increment: item;
+   content: counter(item, decimal-leading-zero) "";
+   display: inline-block;
+   color: #4A3AFF;
+   font-size: 88px;
+font-weight: 700;
+line-height: 107.955%;
+margin-right: 42px;
+padding: 61.5px 62.5px;
+vertical-align: top;
+}
+.list-item{
+   display: inline-block;
+max-width: 629px;
+margin-inline: auto;
+}
+.presentation span {
+   color: #4A3AFF;
+   font-size: 20px;
+font-weight: 700;
+line-height:  110%;
+}
+.presentation h2{
+   color: #1E1B39;
+   font-size: 42px;
+font-weight: 700;
+line-height: 128.571%;
+margin-block: 8px;
+}
+.presentation p {
+   color: #6E6C83;
+   font-size: 24px;
+
+font-weight: 400;
+line-height: 175%;
+}
+.lupa::after{
+content: "🔎";
+}
+.nout::after{
+   content: "💻";
+}
+.raket::after{
+   content: "🚀";
+}
+
+.presentation-2{
+   max-width: 960px;
+   margin-inline: auto;
+   font-family: "DM Sans", Arial, sans-serif;
+}
+.block{
+max-width: 542.983px;
+margin-inline: auto;
+height: 617px;
+background: var(--Neutral-Colors-Color-300, #F0F0F6);
+border-radius: 56px;
+padding: 24px;
+}
+.up-block {
+   max-width: 494.98px;
+   margin-inline: auto;
+height: 271.17px;
+border-radius: 34px;
+background: #4A3AFF;
+padding: 44.49px 138.99px 44.59px 138.99px;
+}
+.up-block p:first-child {
+   color: #fff;
+   text-align: center;
+font-size: 30px;
+opacity: 0.9;
+font-weight: 700;
+line-height: 106.667%;
+margin-bottom: 2px;
+}
+.up-block p:nth-of-type(2) {
+   color: #FFF;
+text-align: center;
+font-size: 116px;
+font-weight: 700;
+line-height: 103.448%;
+margin-bottom: 6px;
+}
+.up-block p:last-child {
+   color: #FFF;
+   text-align: center;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 110%;
+   opacity: 0.6;
+}
+.list-2 li{
+   color:  #1E1B39;
+font-size: 28px;
+font-weight: 700;
+line-height: 135.714%;
+}
+.list-2-1::before{
+   content: "";
+   background: url("../img/check.svg")"" 0 0 / 20px no-repeat;
+   width: 36px;
+height: 36px;
+}
