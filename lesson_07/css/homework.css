@@ -223,7 +223,7 @@ border-radius: 50%;
    color: #391400;
    font-size: 20px;
 line-height: 160%;
-background: url(/img/icon/shape.png) top left / 48px no-repeat;
+background: url(../img/icon/shape.png) top left / 48px no-repeat;
 padding-left: 80px;
 }
 .footer-portfolio{
