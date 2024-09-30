@@ -31,7 +31,6 @@
 width: 31%;
 margin: 1%;
 }
-
 .content a{
    width: 100%;
    background-color: rgb(44, 44, 44);
@@ -39,7 +38,6 @@ border: 1px solid white;
 border-radius: 7px;
 padding: 10px 20px;
 font-size: 16px;
-
 }
 .hover:hover {
    background-color: aliceblue;
@@ -62,7 +60,6 @@ font-size: 16px;
 .target-2:target {
    display: block;
 }
-
 .test {
    max-width: 95%;
    margin-inline: auto;
@@ -70,7 +67,6 @@ font-size: 16px;
    font-size: 0px;
    padding: 15px;
    margin-bottom: 15px;
-
 }
 .test a{
    min-width: 24.3%;
@@ -88,7 +84,6 @@ text-align: center;
    padding: 10px;
    font-size: 14px;
    text-align: center;
-
 }
 .test a:first-of-type {
    color: #3d1414;
@@ -152,11 +147,9 @@ margin-top: 5px;
    background-color: #493535;
    padding: 5px;
 }
-
 .list li:not(:last-child) {
 margin-bottom: 10px;
 }
-
 li::before {
    background: #6e5151;
    content: "";
@@ -165,4 +158,19 @@ li::before {
    display: inline-block;
    margin-right: 15px;
 }
-
+.item-list{
+   background-color: #ffbebe;
+   color: #1800f5;
+   display: block;
+   text-align: center;
+   max-width: 50%;
+   margin-inline: auto;
+   border: #1800f5 1px solid;
+   padding: 5px;
+}
+.item-list:hover{
+   background-color: #d89f9f;
+   color: #0e008d;
+   border: #1401c7 1px dashed;
+   padding: 5px;
+}

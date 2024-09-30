@@ -77,7 +77,6 @@ li {
    padding: 5px 10px;
    min-width: 25%;
    font-weight: 700;
-
 }
 .box-2 {
    display: none;
@@ -117,7 +116,6 @@ li {
 }
 .box-07 {
    display: none;
-
    margin-inline: auto;
    height: 800px;
    width: 800px;
@@ -133,14 +131,12 @@ li {
    border: 5px solid green;
    font-size: 56px;
 }
-
 .round-01 {
    height: 100px;
    width: 100px;
    background-color: yellow;
    visibility: visible;
 }
-
 .round-02 {
    height: 100px;
    width: 100px;
@@ -153,9 +149,6 @@ visibility: visible;
 .round-02:hover{
    visibility: visible;
 }
-
-
-
 .round-03 {
    height: 50px;
    width: 200px;
@@ -166,9 +159,8 @@ visibility: visible;
    visibility: visible;
    }
    .round-03:hover{
-      visibility: visible;
+   visibility: visible;
    }
-
 .round-04 {
    height: 100px;
    width: 50px;
@@ -180,7 +172,7 @@ visibility: visible;
    visibility: visible;
    }
    .round-04:hover{
-      visibility: visible;
+   visibility: visible;
    }
 .round-05 {
    height: 30px;
