@@ -25,14 +25,21 @@ ol{
 font-weight: 700;
 line-height: 107.955%;
 margin-right: 42px;
-padding: 61.5px 62.5px;
-vertical-align: top;
+/* padding: 62.5px 61.5px; */
+background: #dad7ff;
+border-radius: 50%;
+margin-bottom: 54px;
+width: 218px;
+height: 218px;
+text-align: center;
+padding-block: 61.5px;
 }
 .list-item{
    display: inline-block;
 max-width: 629px;
 margin-inline: auto;
 }
+
 .presentation span {
    color: #4A3AFF;
    font-size: 20px;
