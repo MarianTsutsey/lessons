@@ -1,0 +1,69 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   font-family: "Epilogue", Arial, sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   background: url(../img/backgraund.webp);
+   background-size: 100px;
+   background-attachment: fixed;
+   color: #391400;
+}
+h1 {
+   text-align: center;
+   font-size: 56px;
+   margin-block: 25px;
+   background-color: aliceblue;
+   padding: 40px 30px;
+   max-width: 30%;
+   margin-inline: auto;
+   border: 2px black solid;
+   box-shadow: 10px 10px 10px black;
+   border-radius: 10px;
+}
+.block{
+   background-color: #FDF0E9;
+   margin-bottom: 15px;
+   border: 1px black solid;
+   max-width: 80%;
+   margin-inline: auto;
+   padding: 10px;
+}
+.block:hover {
+   background-color: #e7dcd5;
+   border: 1px rgb(102, 43, 43) dashed;
+   margin-inline: auto;
+}
+.colo {
+   background-color: #EF6C57;
+   display: inline-block;
+   min-width: 112px;
+   min-height: 112px;
+   border-radius: 50%;
+   padding: 31px 32px 33px 32px;
+}
+p {
+   display: inline-block;
+   padding-left: 25px;
+}
+img {
+   vertical-align: middle;
+}
+.blue {
+   background-color: #28293E;
+   color: #ffffff;
+}
+.factory img {
+   padding: 10px;
+}
+.star {
+   background: url(../img/icon/star.svg);
+   background-color: #FDF0E9;
+   background-repeat: no-repeat;
+   height: 148px;
+}
+.star img {
+   padding: 48px;
+}
