@@ -143,11 +143,8 @@ li {
    background-color: yellow;
    visibility: hidden;
 }
-.round-01:hover+.round-02 {
+.round-01:hover+.round-02,.round-02:hover {
 visibility: visible;
-}
-.round-02:hover{
-   visibility: visible;
 }
 .round-03 {
    height: 50px;
@@ -155,10 +152,7 @@ visibility: visible;
    background-color: yellow;
    visibility: hidden; 
 }
-.round-02:hover+.round-03 {
-   visibility: visible;
-   }
-   .round-03:hover{
+.round-02:hover+.round-03,.round-03:hover {
    visibility: visible;
    }
 .round-04 {
@@ -168,10 +162,7 @@ visibility: visible;
    margin-left: 150px;
    visibility: hidden;
 }
-.round-03:hover+.round-04 {
-   visibility: visible;
-   }
-   .round-04:hover{
+.round-03:hover+.round-04,.round-04:hover {
    visibility: visible;
    }
 .round-05 {
@@ -181,11 +172,8 @@ visibility: visible;
    margin-left: 150px;
    visibility: hidden;
 }
-.round-04:hover+.round-05 {
+.round-04:hover+.round-05,.round-05:hover {
    visibility: visible;
-   }
-   .round-05:hover{
-      visibility: visible;
    }
 .round-06 {
    height: 100px;
@@ -194,11 +182,8 @@ visibility: visible;
    margin-left: 600px;
       visibility: hidden;
 }
-.round-05:hover+.round-06 {
+.round-05:hover+.round-06,.round-06:hover {
    visibility: visible;
-   }
-   .round-06:hover{
-      visibility: visible;
    }
 .round-07 {
    height: 30px;
@@ -207,11 +192,8 @@ visibility: visible;
    margin-left: 50px;
       visibility: hidden;
 }
-.round-06:hover+.round-07 {
+.round-06:hover+.round-07,.round-07:hover {
    visibility: visible;
-   }
-   .round-07:hover{
-      visibility: visible;
    }
 .round-08 {
    height: 150px;
@@ -220,11 +202,8 @@ visibility: visible;
    margin-left: 50px;
    visibility: hidden;
 }
-.round-07:hover+.round-08 {
+.round-07:hover+.round-08,.round-08:hover {
    visibility: visible;
-   }
-   .round-08:hover{
-      visibility: visible;
    }
 .round-09 {
    height: 30px;
@@ -233,11 +212,8 @@ visibility: visible;
    margin-left: 50px;
       visibility: hidden;
 }
-.round-08:hover+.round-09 {
+.round-08:hover+.round-09,.round-09:hover {
    visibility: visible;
-   }
-   .round-09:hover{
-      visibility: visible;
    }
 .round-10 {
    height: 110px;
@@ -246,11 +222,8 @@ visibility: visible;
    margin-left: 750px;
       visibility: hidden;
 }
-.round-09:hover+.round-10 {
+.round-09:hover+.round-10,.round-10:hover {
    visibility: visible;
-   }
-   .round-10:hover{
-      visibility: visible;
    }
 .round-11{
    background: url(../img/you-win.jpg);
@@ -260,9 +233,7 @@ visibility: visible;
    background-position: center;
    visibility: hidden;
 }
-.round-10:hover+.round-11 {
+.round-10:hover+.round-11,.round-11:hover {
    visibility: visible;
    }
-   .round-11:hover{
-      visibility: visible;
-   }
+

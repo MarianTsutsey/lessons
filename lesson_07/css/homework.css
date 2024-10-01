@@ -65,13 +65,22 @@ font-weight: 400;
 line-height: 175%;
 }
 .lupa::after{
-content: "🔎";
+content: "";
+background: url(/img/icon/lypa.png) 0 0 / 36px no-repeat;
+height: 36px;
+width: 36px;
 }
 .nout::after{
-   content: "💻";
+   content: "";
+   background: url(/img/icon/noyt.png) 0 0 / 36px no-repeat;
+height: 36px;
+width: 36px;
 }
 .raket::after{
-   content: "🚀";
+   content: "";
+   background: url(/img/icon/raket.png) 0 0 / 36px no-repeat;
+height: 36px;
+width: 36px;
 }
 .presentation-2{
    max-width: 960px;
