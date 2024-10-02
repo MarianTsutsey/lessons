@@ -51,7 +51,7 @@ line-height:  110%;
    font-size: 42px;
 font-weight: 700;
 line-height: 128.571%;
-margin-block: 8px;
+padding-block: 8px;
 }
 .presentation a:hover{
    color: #1800f5;
@@ -66,19 +66,19 @@ line-height: 175%;
 }
 .lupa::after{
 content: "";
-background: url(/img/icon/lypa.png) 0 0 / 36px no-repeat;
+background: url(../img/icon/lypa.png) 0 0 / 36px no-repeat;
 height: 36px;
 width: 36px;
 }
 .nout::after{
    content: "";
-   background: url(/img/icon/noyt.png) 0 0 / 36px no-repeat;
+   background: url(../img/icon/noyt.png) 0 0 / 36px no-repeat;
 height: 36px;
 width: 36px;
 }
 .raket::after{
    content: "";
-   background: url(/img/icon/raket.png) 0 0 / 36px no-repeat;
+   background: url(../img/icon/raket.png) 0 0 / 36px no-repeat;
 height: 36px;
 width: 36px;
 }
@@ -155,8 +155,7 @@ line-height: 135.714%;
    background: #dbdbdf;
 }
 .portfolio {
-   max-width: 1440px;
-   margin-inline: auto;
+
    background-color: #FDF0E9;
    font-family: "Epilogue", Helvetica, sans-serif;
    color: rgba(57, 20, 0, 0.64);
@@ -169,6 +168,9 @@ max-width: 970px;
 margin-inline: auto;
    margin-block-end: 74px;
    padding-top: 50px;
+}
+.foto-portfolio img {
+   max-width: 970px;
 }
 .header-portfolio {
    max-width: 570px;
@@ -195,15 +197,20 @@ font-weight: 700;
 line-height:133.333%;
 margin-bottom: 35px;
 }
-.main-portfolio p:nth-of-type(odd){
-margin-bottom: 32px;
-}
-.main-portfolio p:nth-of-type(even){
-   margin-bottom: 69px;
-   }
-.main-portfolio ol,ul {
+.main-portfolio p:not(:last-child) {
    margin-bottom: 32px;
+}
+.list-1-portfolio {
+   margin-bottom: 32px;
+}
+.list-portfolio {
+   margin-bottom: 32px;
+}
+.main-portfolio ol,ul {
    color: #391400;
+}
+.main-portfolio{
+   margin-bottom: 69px;
 }
 .list-1-portfolio li::before{
    content: "";
