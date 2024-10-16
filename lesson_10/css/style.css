@@ -1,0 +1,293 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css?family=Oswald:regular,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800,900&display=swap");
+
+.wrapper {
+   font-family: "Oswald", Arial, sans-serif;
+   min-height: 100%;
+   max-width: 100%;
+   overflow: clip;
+
+   /* overflow: hidden; */
+}
+h1 {
+font-size: 36px;
+text-align: center;
+max-width: 50%;
+margin-inline: auto;
+margin-bottom: 15px;
+/* position: fixed; */
+/* position: sticky;
+top: 0; */
+}
+.navigation__list{
+max-width: 90%;
+margin-inline: auto;
+}
+.navigation__sub-list{
+   display: inline-block;
+   width: 19%;
+   text-align: center;
+   position: relative;
+}
+.navigation__sub-list:not(:last-child){
+   margin-right: 15px;
+}
+.navigation__link{
+   width: 100%;
+   border: 1px solid;
+   padding-block: 5px;
+}
+.navigation__link:hover{
+   border: 1px red solid;
+
+}
+header {
+position: sticky;
+top: 0;
+z-index: 50;
+background-color: #000000;
+color: aliceblue;
+padding: 5px;
+margin-bottom: 96px;
+}
+.sub-menu__list{
+   position: absolute;
+   top: 100%;
+   left: 10%;
+   display: block;
+   background-color: #1a1717;
+   width: 80%;
+   visibility: hidden;
+}
+.navigation__link:hover+.sub-menu__list{
+   visibility: visible;
+}
+.sub-menu__list:hover{
+   visibility: visible;
+}
+.sub-menu__item{
+   padding-left: 40px;
+   position: relative;
+   text-align: left;
+   padding-block: 10px;
+}
+.sub-menu__item:hover{
+text-decoration: underline;}
+.sub-menu__item::before{
+   content: "";
+background: #ff0000 center;
+width: 10px;
+height: 10px;
+position: absolute;
+top: 35%;
+left: 10%;
+border-radius: 50px;
+}
+.navigation__foto{
+   position: fixed;
+   max-width: 70px;
+   padding: 10px;
+}
+.header__conteiner{
+   margin-bottom: 15px;
+}
+.main__portfolio{
+   font-family: "Epilogue", Arial, sans-serif;
+   color: #fff;
+background-color: #28293E;
+max-width: 1440px;
+margin-inline: auto;
+margin-bottom: 96px;
+padding-bottom: 96px;
+}
+.portfolio__header{
+   padding: 108px 134px 64px 135px;
+   position: relative;
+}
+.portfolio__title p {
+color: #EF6D58;
+line-height: 200%;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.portfolio__title h2 {
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 114.286%;
+   letter-spacing: -1px;
+}
+.portfolio__link{
+   border: 1px solid #ffffff34;
+   padding: 18px 30px 16px 31px;
+   border-radius: 5px;
+   font-size: 14px;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+.portfolio__link:hover{
+   border: 1px solid #ffffff;
+   text-decoration: underline;
+}
+.portfolio__title{
+   display: inline-block;
+}
+.portfolio__button{
+   display: inline-block;
+   position: absolute;
+   top: 55%;
+   left: 78%;
+}
+.work{
+   display: inline-block;
+   max-width: 33.33333%;
+   position: relative;
+   padding: 15px;
+   border: 1px rgba(255, 255, 255, 0.096) solid;
+}
+.portfolio__work{
+   font-size: 0;
+}
+.work__link{
+   font-size: 16px;
+   line-height: 200%;
+   padding: 5px 15px 1px 16px;
+   background-color: #fff;
+   border-radius: 19px;
+   color: #391400;
+   position: absolute;
+   top: 72%;
+   left: 10.7%;
+}
+.work__link:hover{
+   background-color: #28293E;
+   color: #fff;
+}
+.work__title{
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 120%;
+   position: absolute;
+   top: 82%;
+   left: 10.7%;
+}
+.work__foto img{
+   max-width: 100%;
+   max-height: 100%;
+}
+.work__backgraund::before{
+   content: "";
+   height: 100%;
+   width: 100%;
+   background-color: #5C2000;
+   opacity: 0.3181;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.work__foto{
+   position: relative;
+}
+.collage{
+   background-color: #28293E;
+   max-width: 90%;
+   margin-inline: auto;
+   padding: 25px;
+   min-height: 900px;
+   position: relative;
+}
+.colllage__oval{
+   position: absolute;
+   top: 278px;
+   left: 835px;
+   z-index: 1;
+}
+.collage__path{
+   position: absolute;
+   top: 258px;
+   left: 1193px ;
+}
+.collage__shape-01{
+   position: absolute;
+   top: 687px;
+   left: 1149px;
+}
+.collage__shape-02{
+   position: absolute;
+   top: 519px;
+   left: 735px;
+   z-index: 2;
+}
+.collage__block{
+   border-radius: 6px;
+   position: absolute;
+   top: 609px;
+   left: 791px;
+   z-index: 2;
+}
+.collage__shape-03{
+padding: 28px 35px;
+}
+.collage__backgraund-shape{
+   max-width: 112px;
+   max-width: 112px;
+   background-color: #EF6D58;
+   width: 112px;
+   height: 112px;
+   border-radius: 100px;
+   position: absolute;
+   top: 218px;
+   left: 1039px;
+   z-index: 2;
+}
+.collage__foto::before{
+   content: "";
+   background-color: #B550F8;
+   width: 246px;
+   height: 246px;
+   border-radius: 100%;
+   position: absolute;
+   top: 178px;
+   left: 735px;
+   z-index: 2;
+}
+.collage__foto::after{
+   content: "";
+   background-color: #B550F8;
+   width: 246px;
+   height: 182px;
+   position: absolute;
+   top: 301px;
+   left: 735px;
+z-index: 2;
+}
+.collage__foto-laptop{
+   position: absolute;
+   top: 202px;
+   left: 756px;
+   z-index: 3;
+}
+.collage__foto--yelow::after{
+   background-color: #F7CC47;
+   top: 490px;
+   left: 1059px;
+}
+.collage__foto--yelow::before{
+   background-color: #F7CC47;
+   top: 367px;
+   left: 1059px;
+}
+.collage__foto-women{
+   position: absolute;
+   top: 404px;
+   left: 1059px;
+   z-index: 3;
+}
+.main__fotocollage{
+   margin-bottom: 97px;
+}
+h3 {
+   font-size: 56px;
+   text-align: center;
+}
