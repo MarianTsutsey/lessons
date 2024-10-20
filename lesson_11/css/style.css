@@ -125,7 +125,7 @@ backface-visibility: visible;
 height: 811px;
 width: 1440px;
 margin-bottom: 100px;
-background: url(/img/backgraund.webp) 0 0 / contain no-repeat;
+background: url("../img/backgraund.webp") 0 0 / contain no-repeat;
 padding-left: 100px;
 padding-top: 220px;
 position: relative;
