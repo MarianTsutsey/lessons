@@ -102,28 +102,27 @@ margin: 20px;
    left: 0;
    transform: rotatey(180deg);
    backface-visibility: hidden;
-   transition: 2s;
+   transition: 15s;
 }
 .backface{
    position: relative;
    perspective: 1000px;
 }
 .test__son--front{
-   transition: 2s;
+   transition: 15s;
 }
 .backface:hover .test__son--front {
-transform: rotateY(-180deg);
+transform: rotateY(-5580deg);
 backface-visibility: visible;
 }
 .backface:hover .test__son--back {
    backface-visibility: hidden;
-   transform: rotateY(0deg);
+   transform: rotateY(-5400deg);
 }
 
 .main__car{
    border: 1px solid black;
 height: 811px;
-width: 1440px;
 margin-bottom: 100px;
 background: url("../img/backgraund.webp") 0 0 / contain no-repeat;
 padding-left: 100px;
@@ -339,15 +338,23 @@ transform: translate(140px, -230px) skew(-30deg, 0deg) rotate(-29deg);
 }
 .car__mask{
    position: absolute;
-   top: 200px;
-   left: 1140px;
+   top: 400px;
+   left: 1250px;
+   visibility: hidden;
+   transform: translateY(100%) translateX(100%);
+   transition: all 0.5s;
+opacity: 0;
 }
 .car__foto-mask{
-width: 300px;
-visibility: hidden;
+width: 200px;
+
+
 }
-.main__car:hover .car__foto-mask{
+.main__car:hover .car__mask{
    visibility: visible;
+   transform: translateX(0) translateX(0);
+   opacity: 1;
+
 }
 
 
