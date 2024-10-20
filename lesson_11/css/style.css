@@ -1,5 +1,7 @@
 @import url(reset.css);
+body{
 
+}
 .header__title {
    text-align: center;
    padding: 20px;
@@ -128,6 +130,7 @@ background: url("../img/backgraund.webp") 0 0 / contain no-repeat;
 padding-left: 100px;
 padding-top: 220px;
 position: relative;
+overflow: hidden;
 }
 .car__back-body-01{
 background-color: #ABABAB;
@@ -338,7 +341,7 @@ transform: translate(140px, -230px) skew(-30deg, 0deg) rotate(-29deg);
 }
 .car__mask{
    position: absolute;
-   top: 400px;
+   top: 415px;
    left: 1250px;
    visibility: hidden;
    transform: translateY(100%) translateX(100%);
@@ -347,7 +350,6 @@ opacity: 0;
 }
 .car__foto-mask{
 width: 200px;
-
 
 }
 .main__car:hover .car__mask{
