@@ -406,7 +406,7 @@ transition: 0.3s;
    padding-bottom: 176px;
 }
 .founder__foto{
-   background: url(../img/bg-05.webp) no-repeat;
+   background: url(..//img/bg-05.webp) no-repeat;
    border-radius: 6px;
    padding: 28px 51px 0 42px;
 }
@@ -432,7 +432,7 @@ transition: 0.3s;
 }
 .founder__title::before{
    content: "";
-   background: url(../img/shape.webp);
+   background: url(..//img/shape.webp);
    width: 100px;
    height: 80px;
    position: absolute;
