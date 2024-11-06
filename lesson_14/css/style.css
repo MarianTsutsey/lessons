@@ -1,6 +1,6 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
-
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600&display=swap");
 .wrapper{
    max-width: 100%;
    min-height: 100%;
@@ -54,6 +54,7 @@ justify-content: space-between;
 }
 .passages__message{
    min-height: 48px;
+   margin-bottom: 26px;
 }
 .passages__conteiner input:focus::placeholder{
    color: #A53DFF;
@@ -103,7 +104,116 @@ gap: 24px;
    height: 24px;
    vertical-align: top;
 }
+textarea{
+   resize: vertical;
+}
+.passages{
+   margin-bottom: 50px;
+}
 
+
+.form{
+   max-width: 800px;
+   margin-inline: auto;
+   background-color: #0F0F0F;
+   border-radius: 10px;
+   border: 1px solid #262626;
+color: #fff;
+padding: 40px;
+font-family: "Manrope", Arial, sans-serif;
+}
+
+.form__dark{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   flex: 1 1 720px;
+}
+.form__name{
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.form__sub-name{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   min-width: 349px;
+}
+.form input{
+   padding: 16px;
+   background-color: #141414;
+   border: 1px solid #262626;
+   border-radius: 6px;
+}
+.form__messege textarea{
+   padding: 16px;
+   background-color: #141414;
+   border: 1px solid #262626;
+   border-radius: 6px;
+}
+.form label{
+   font-weight: 600;
+   line-height: 150%;
+}
+.form textarea{
+   min-height: 129px;
+}
+.form__messege{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+}
+.form__button{
+   display: flex;
+   gap: 70px;
+   justify-content: space-between;
+   align-items: center;
+}
+.form__checkbox{
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+/* .form__checkbox input{
+   appearance: none;
+   background-color: #0F0F0F;
+   border: 1px solid #262626;
+   border-radius: 6px;
+   width: 24px;
+height: 24px;
+cursor: pointer;
+} */
+.form__checkbox-label{
+   /* min-width: 440px; */
+   display: inline-flex;
+   color: #999;
+   line-height: 150%;
+   cursor: pointer;
+}
+.form__checkbox input{
+   appearance: none;
+   width: 24px;
+   height: 24px;
+   /* padding: 12px; */
+   background-color: #141414;
+   border: 1px solid #262626;
+   border-radius: 6px;
+}
+.form__checkbox input:checked{
+   background: url("https://www.svgrepo.com/show/404946/check-mark-button.svg") center /
+   contain no-repeat;
+}
+.form__button-button button{
+   background-color: #E50000;
+   padding: 14px 20px;
+   border-radius: 6px;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 150%;
+}
 
 
 
