@@ -25,50 +25,49 @@
    gap: 24px;
    color: #A53DFF;
 }
-
 .passages__conteiner input{
    border-bottom: 1.5px solid #E6E8EB;
 }
+.passages__conteiner textarea{
+   border-bottom: 1.5px solid #E6E8EB;
+}
+.passages__conteiner textarea:focus{
+   border-bottom: 1.5px solid #A53DFF;
+}
+.passages__conteiner textarea:hover{
+   border-bottom: 1.5px solid #A53DFF;
+}
+.passages__conteiner textarea:hover::placeholder{
+   color: #A53DFF;
+   }
 .passages__conteiner input:hover{
    border-bottom: 1.5px solid #A53DFF;
 }
 .passages__conteiner input:hover::placeholder{
 color: #A53DFF;
 }
-
-
-
-
-
-
-
 .passages__sub-information{
    display: flex;
 gap: 24px;
 flex-wrap: wrap;
 justify-content: space-between;
 }
-
 .passages__message{
    min-height: 48px;
 }
 .passages__conteiner input:focus::placeholder{
    color: #A53DFF;
-   border-bottom: 1.5px solid #A53DFF;
-   padding-bottom: 15.5px;
 }
-.passages__message input:focus::placeholder{
-   color: #A53DFF;
-   border-bottom: 1.5px solid #A53DFF;
-   padding-bottom: 20.5px;
-}
-
-
 .passages__input{
    max-width: 560px;
    width: 100%;
 }
 [class*="passages__"] input{
+   width: 100%;
+   padding-bottom: 14px;
+   outline-color: #69748400;
+}
+[class*="passages__"] textarea{
    width: 100%;
    padding-bottom: 14px;
    outline-color: #69748400;
@@ -79,6 +78,30 @@ justify-content: space-between;
 }
 .passages__sub-input-2{
    flex: 1 1 336px;
+}
+.passages__button{
+   align-self: flex-start;
+   background-color: #A53DFF;
+   color: #fff;
+   padding: 12px 24px;
+   display: flex;
+   gap: 12px;
+   border-radius: 4px;
+   transition: 0.3s;
+   
+}
+.passages__button:hover{
+gap: 24px;
+}
+.passages__button:active{
+   transform: scale(1.1);
+}
+.passages__button::after{
+   content: "";
+   background: url(..//img/plane.svg) no-repeat;
+   width: 24px;
+   height: 24px;
+   vertical-align: top;
 }
 
 
