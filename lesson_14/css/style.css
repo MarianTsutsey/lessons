@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Manrope:regular,600&display=swap");
+
 .wrapper{
    max-width: 100%;
    min-height: 100%;
@@ -110,17 +111,15 @@ textarea{
 .passages{
    margin-bottom: 50px;
 }
-
-
 .form{
    max-width: 800px;
    margin-inline: auto;
    background-color: #0F0F0F;
    border-radius: 10px;
    border: 1px solid #262626;
-color: #fff;
-padding: 40px;
-font-family: "Manrope", Arial, sans-serif;
+   color: #fff;
+   padding: 40px;
+   font-family: "Manrope", Arial, sans-serif;
 }
 
 .form__dark{
