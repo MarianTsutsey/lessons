@@ -138,7 +138,7 @@ textarea{
    display: flex;
    flex-direction: column;
    gap: 12px;
-   min-width: 349px;
+   flex: 1 1 349px;
 }
 .form input{
    padding: 16px;
