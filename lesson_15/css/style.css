@@ -501,7 +501,7 @@ align-items: flex-end;
    line-height: 200%;
    color: rgba(255, 255, 255, 0.64);
 }
-.our-team__pins{
+.pins{
    /* max-width: 76px; */
    margin-inline: auto;
    display: flex;
@@ -510,41 +510,41 @@ align-items: flex-end;
    margin-bottom: 180px;
 }
 @media (max-width:1050px){
-   .our-team__pins{
+   .pins{
       margin-bottom: 116px;   }
 }
-.our-team__pin--01{
+.pins__pin--01{
    display: none;
 }
 @media (max-width:1050px){
-   .our-team__pin--01{
+   .pins__pin--01{
       display: block;
    }
 }
-.our-team__pin--02{
+.pins__pin--02{
    display: none;
 }
 @media (max-width:758px){
-   .our-team__pin--02{
+   .pins__pin--02{
       display: block;
    }
 }
-.our-team__pin--03{
+.pins__pin--03{
    display: none;
 }
 @media (max-width:456px){
-   .our-team__pin--03{
+   .pins__pin--03{
       display: block;
    }
 }
-.our-team__pin{
+.pins__pin{
    border: 1px solid #4E4F6E;
    width: 12px;
    height: 12px;
 border-radius: 50%;
 transition: 0.3s;
 }
-.our-team__pin:hover{
+.pins__pin:hover{
    background-color: #EF6D58;
 }
 .founder{
