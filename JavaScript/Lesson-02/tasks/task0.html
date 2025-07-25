@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 1</h1>
+		</header>
+		<main>
+			<p>Обчислити значення виразів:<br>
+				s1=a+12+b <br>
+				s2=sqrt((a+b)/(2*a)) <br>
+				s3=crbt((a+b)*c) <br>
+				s4=sin(a/(-b))
+			</p>
+			<!-- просимо коримтувача ввести значення a,b,c -->
+			<script>
+				const a = parseFloat(prompt("Введіть значення 'a'", "0"));
+				const b = parseFloat(prompt("Введіть значення 'b'", "0"));
+				const c = parseFloat(prompt("Введіть значення 'c'", "0"));
+
+				//обчислюємо значення виразів
+				const s1 = a + 12 + b;
+				const s2 = Math.sqrt((a + b) / (2 * a));
+				const s3 = Math.cbrt((a + b) * c);
+				const s4 = Math.sin(a / (-b));
+
+				//виводимо результат
+				document.write(`
+				<p class="answer">
+					Відповідь:<br>
+					s1 = ${s1} <br>
+					s2 = ${s2}<br>
+					s3 = ${s3}<br>
+					s4 = ${s4}<br>
+				</p>
+				`)
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 6</h1>
+		</header>
+		<main>
+			<p>З клавіатури вводяться вартість товару та кількість одиниць 3 товарів.
+				Обчислити вартість кожного товару окремо та загальну вартість.
+				Вивести чек (як у супермаркеті) використовуючи елементи розмітки.
+			</p>
+			<!-- просимо користувача ввести дані -->
+			<script>
+				const priceFirst = parseFloat(prompt("вартість першого товару", "0.00"));
+				const quantityFirst = parseInt(prompt("кількість першого товару", "1"));
+				const priceSecond = parseFloat(prompt("вартість другого товару", "0.00"));
+				const quantitySecond = parseInt(prompt("кількість другого товару", "1"));
+				const priceThird = parseFloat(prompt("вартість третього товару", "0.00"));
+				const quantityThird = parseInt(prompt("кількість третього товару", "1"));
+
+				//обчислюємо чек
+				const costFirst = priceFirst * quantityFirst;
+				const costSecond = priceSecond * quantitySecond;
+				const costThird = priceThird * quantityThird;
+				const sum = costFirst + costSecond + costThird;
+				const tax = (sum * 5) / 100;
+
+				//виводимо результат
+				document.write(`
+супермаркет <br>
+м.******, вул.*******95а
+								<table>
+				<tr>
+					<th>товар</th>
+					<th>вартість</th>
+					<th>кількість</th>
+					<th>сума</th>
+				</tr>
+				<tr>
+					<th>товар 1</th>
+					<td>${priceFirst}</td>
+					<td>${quantityFirst}</td>
+					<td>${costFirst}</td>
+				</tr>
+				<tr>
+					<th>товар 2</th>
+					<td>${priceSecond}</td>
+					<td>${quantitySecond}</td>
+					<td>${costSecond}</td>
+				</tr>
+				<tr>
+					<th>товар 3</th>
+					<td>${priceThird}</td>
+					<td>${quantityThird}</td>
+					<td>${costThird}</td>
+				</tr>
+				<tr>
+					<th>До сплати</th>
+					<td>--</td>
+					<td>--</td>
+					<td>${sum.toFixed(2)}</td>
+				</tr>
+				<tr>
+					<th>в т.ч. ПДВ</th>
+					<td>--</td>
+					<td>--</td>
+					<td>${tax.toFixed(2)}</td>
+				</tr>
+			</table>
+			дякуємо за покупку
+				`)
+			</script>
+
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

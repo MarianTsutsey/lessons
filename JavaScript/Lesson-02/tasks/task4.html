@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 4</h1>
+		</header>
+		<main>
+			<p>Дано довжину у сантиметрах. Визначати скільки це метрів і кілометрів.
+			</p>
+			<!-- просимо коримтувача ввести довжину в сантиметрах -->
+			<script>
+				const centimeters = parseInt(prompt("введіть довжину в сантиметрах", "1"));
+				const meters = 100;
+				const kilometers = 100000;
+
+				//обчислюємо скільки це метрів і кілометрів
+				const centimetersToMeters = centimeters / meters;
+				const centimetersToKilometers = centimeters / kilometers;
+
+				//виводимо результат
+				document.write(`
+				<p class="answer">
+					В ${centimeters} сантиметрах ${centimetersToMeters} метрів або ${centimetersToKilometers} кілометрів
+				</p>
+				`)
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
