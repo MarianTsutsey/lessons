@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 1</h1>
+		</header>
+		<main>
+			<p>З клавіатури вводяться імена двох дітей та кількість у них цукерок. Вивести не екран ім’я тієї дитини,
+				у якої кількість цукерок є більшою, або вивести, що кількість однакова.
+			</p>
+			<script>
+				const firstChild = (prompt("імя першої дитини", "Іван"));
+				const secondChild = (prompt("імя другої дитини", "Василь"));
+				const numberCandiesFirstChild = parseInt(prompt("к-сть цукерок у першиї дитини", "10"))
+				const numberCandiesSecondChild = parseInt(prompt("к-сть цукерок у другої дитини", "12"))
+
+				if (numberCandiesFirstChild > numberCandiesSecondChild)
+					document.write(`<p class="answer">У ${firstChild} цукерок більше</p>`)
+				if (numberCandiesFirstChild === numberCandiesSecondChild)
+					document.write(`<p class="answer">У ${firstChild} і ${secondChild} цукерок однаково</p>`)
+				if (numberCandiesFirstChild < numberCandiesSecondChild)
+					document.write(`<p class="answer">У ${secondChild} цукерок більше</p>`)
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
