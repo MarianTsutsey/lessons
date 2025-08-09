@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 5</h1>
+		</header>
+		<main>
+			<p>Знайти суму всіх непарних чисел, що знаходяться між заданими користувачем числами.
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+
+					let firstNum = parseInt(prompt("enter first number", "6"))
+					const secondNum = parseInt(prompt("enter second number", "13"))
+					let firstOddNum = firstNum
+					let summ = 0
+					if (firstNum % 2 === 0) {
+						firstOddNum = firstNum + 1
+					}
+					for (let i = firstOddNum; i <= secondNum; i += 2) {
+						summ = summ + i
+					}
+					document.write(`сума всіх непарних чисел, що знаходяться між ${firstNum} i ${secondNum} = ${summ}`)
+				}
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 1</h1>
+		</header>
+		<main>
+			<p>Вивести на екран N абзаців (N вводиться користувачем) за зразком:
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+					let numSection = parseInt(prompt("введіть кількість абзаців", "5"))
+					for (let i = 1; i <= numSection; i++) {
+						document.write(
+							`<h1 style="padding-bottom: 5px">Заголовок ${i}</h1>
+			`)
+						for (let j = 1; j <= numSection; j++) {
+							if
+								(j > i)
+								break
+							document.write(
+								`
+			<p style="padding-bottom: 5px; border-bottom: none">Параграф ${j}. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ullam numquam placeat officiis, accusantium
+				eius omnis porro, sapiente totam ex esse explicabo inventore iure tenetur obcaecati mollitia necessitatibus
+				quo a.</p>`)
+						}
+						1
+					}
+				}
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

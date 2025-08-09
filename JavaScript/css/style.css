@@ -39,4 +39,7 @@ li{
    font-size: 18px;
    background-color: rgb(252, 240, 223);
 }
+table, tr, th{
+   border: 1px solid black;
+}
 

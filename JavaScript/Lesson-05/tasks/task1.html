@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1">Задача 2</h1>
+		</header>
+		<main>
+			<p>З Вивести i таблиці (по j рядки і x стовпці у кожній) за зразком де користуваач вводить кількість таблиця,
+				рядків, та стовбців
+			</p>
+
+
+
+			<script>
+				if (confirm('Почати тестування?')) {
+					let nom = 1
+					const numTable = parseInt(prompt("Number Table", "3"))
+					const numCol = parseInt(prompt("Number Columns", "3"))
+					const numRow = parseInt(prompt("Number TabRows", "3"))
+					for (let i = 1; i <= numTable; i++) {
+						document.write(`<table style="display: inline-block; margin-right: 15px;">`);
+						for (let j = 1; j <= numCol; j++) {
+							document.write(`<tr>`);
+							for (let x = 1; x <= numRow; x++) {
+								document.write(`<th style="padding: 5px;"> ${nom++}</th>`);
+							}
+							document.write(`</tr>`);
+						}
+						document.write(`</table>`);
+					}
+				}
+			</script>
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

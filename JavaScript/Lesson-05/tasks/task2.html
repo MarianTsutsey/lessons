@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1>Задача 3</h1>
+		</header>
+		<main>
+			<p>Ігровий автомат. Випадково вибираємо зображення у 3 позиціях. Вибір у кожній позиції вибирається як одне з
+				трьох зображень. Вивести ці зображення і повідомити виграш користувача (три перших зображення 100 грн,
+				три других – 200, три третіх – 500). Використати цикли і switch (для
+				вибору зображення за номером).
+
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+					let win1, win2, win3;
+					for (let i = 1; i <= 3; i++) {
+						let imgNum = 1 + Math.floor(Math.random() * 3)
+						document.write(`<img src = "../img/${imgNum}.webp">`)
+						if
+							(i === 1) win1 = imgNum;
+						else if
+							(i === 2) win2 = imgNum;
+						else
+							win3 = imgNum;
+					}
+					let win = 0;
+
+					if (win1 === win2 && win2 === win3) {
+						switch (win1) {
+							case 1:
+								win = 100;
+								break;
+							case 2:
+								win = 200;
+								break;
+							case 3:
+								win = 500;
+								break;
+						}
+
+					}
+					document.write(`win ${win}`)
+				}
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
