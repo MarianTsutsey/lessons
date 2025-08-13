@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1">Задача 1</h1>
+		</header>
+		<main>
+			<p> Створити функцію, яка за номером місяця повертає пору року, до якої відноситься цей місяць.
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+					let month = prompt("enter number month", "1")
+					function getMonth(month) {
+						let numMonth
+						switch (month) {
+							case '1':
+							case '2': numMonth = 'winter'
+								break;
+							case '3':
+							case '4':
+							case '5': numMonth = 'spring'
+								break;
+							case '6':
+							case '7':
+							case '8': numMonth = 'summer'
+								break;
+							case '9':
+							case '10':
+							case '11': numMonth = 'autumn'
+								break;
+							case '12': numMonth = 'winter'
+								break;
+							default:
+								throw new Error('not month')
+						}
+						return numMonth
+					}
+					document.write(getMonth(`${month}`))
+				}
+			</script>
+
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

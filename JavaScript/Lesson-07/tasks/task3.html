@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1">Задача 4</h1>
+		</header>
+		<main>
+			<p>Створити функцію, яка створює таблицю з вказаною кількістю рядків і стовпців (таблиця заповнюється заданим
+				фіксованим повідомленням).
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+					const numRow = parseInt(prompt("enter Row number", "5"))
+					const numCol = parseInt(prompt("enter Collumn number", "8"))
+
+					function getTable(numRow, numCol) {
+						for (let j = 1; j <= numRow; j++) {
+							document.write(`<table> <tr>`);
+							for (let x = 1; x <= numCol; x++) {
+								document.write(`<th> text </th>`);
+							}
+							document.write(`</tr> </table>`);
+						}
+					}
+
+					getTable(numRow, numCol)
+				}
+			</script>
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>

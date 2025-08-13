@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../css/style.css">
+	<title>blank</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<h1">Задача 5</h1>
+		</header>
+		<main>
+			<p>Створити функцію, яка випадковим чином виводить на екран одне із 3 зображень (шляхи до зображень передаються
+				у функцію)
+			</p>
+			<script>
+				if (confirm('Почати тестування?')) {
+					function getRundomImg(img1, img2, img3) {
+						const numImg = 1 + Math.floor(Math.random() * 3)
+						if (numImg === 1) return img1
+						if (numImg === 2) return img2
+						return img3
+					}
+					const imgNum = getRundomImg("../img/1.webp", "../img/2.webp", "../img/3.webp")
+					document.write(`<img src = "${imgNum}">`)
+				}
+			</script>
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+</body>
+
+</html>
